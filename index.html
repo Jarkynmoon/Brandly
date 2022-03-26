@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="home">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                   <a class="navbar-brand header__logo" href="#">
@@ -29,22 +29,22 @@
                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
                     </span>
                   </button>
-                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li class="nav-item header__nav-item">
-                        <a class="nav-link header__nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link header__nav-link active" aria-current="page" href="#home">Home</a>
                       </li>
                       <li class="nav-item header__nav-item">
-                        <a class="nav-link header__nav-link" href="#">Shops</a>
+                        <a class="nav-link header__nav-link" href="#shops">Shops</a>
                       </li>
                       <li class="nav-item header__nav-item">
-                        <a class="nav-link header__nav-link" href="#">Brands</a>
+                        <a class="nav-link header__nav-link" href="#brands">Brands</a>
                       </li>
                       <li class="nav-item header__nav-item">
-                        <a class="nav-link header__nav-link" href="#">Blog</a>
+                        <a class="nav-link header__nav-link" href="#blog">Blog</a>
                       </li>
                       <li class="nav-item header__nav-item">
-                        <a class="nav-link header__nav-link" href="#">Contacts</a>
+                        <a class="nav-link header__nav-link" href="#footer">Contacts</a>
                       </li>
                     </ul>
                   </div>
@@ -65,7 +65,7 @@
             </div>
         </section>
 
-        <section class="cat text-center">
+        <section class="cat text-center" id="shops">
           <div class="container">
             <h2 class="section-title">Categories</h2>
             <div class="row">
@@ -94,10 +94,10 @@
           </div>
         </section>
 
-        <section class="blog">
+        <section class="blog" id="blogs">
           <div class="container">
             <h2 class="section-title text-center">From the Blog</h2>
-            <div class="row">
+            <div class="row" id="brands">
               <div class="col-12 col-md-6">
                 <div class="blog__item">
                   <div class="blog__item-img"></div>
@@ -134,7 +134,7 @@
 
     </main>
     
-    <footer class="footer overlay">
+    <footer class="footer overlay" id="footer">
       <div class="container">
         <p class="footer__text">Copyrtight Brandly.2022</p>
       </div>
