@@ -1,3 +1,3 @@
-###Landing page - Brandly
+Landing page - Brandly
 
-##Deployed link: 
+##Deployed link: https://jarkynmoon.github.io/Brandly/
