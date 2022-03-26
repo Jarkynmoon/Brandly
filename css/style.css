@@ -55,7 +55,7 @@ body {
   text-align: center;
   color: var(--pure-white);
   text-transform: uppercase;
-  background: url(/images/banner.png);
+  background: url(../images/banner.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -120,19 +120,19 @@ body {
   min-height: 419px;
 }
 .cat__item--men {
-  background: url(/images/for-men.jpg);
+  background: url(../images/for-men.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .cat__item--women {
-  background: url(/images/for-women.jpg);
+  background: url(../images/for-women.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .cat__item--accessories {
-  background: url(/images/accessories.jpg);
+  background: url(../images/accessories.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -251,7 +251,7 @@ body {
   padding-top: 65px;
   min-height: 157px;
 
-  background: url(/images/footer-banner.jpg);
+  background: url(../images/footer-banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
